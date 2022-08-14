@@ -1,0 +1,112 @@
+.fa-utensils{
+  margin-right:0.1em;
+  font-size: 1.1em;
+}
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size:20px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+ul{
+  list-style: none;
+}
+
+.nav-bar{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  height: 6vh;
+  background-color: grey;
+}
+
+.logo{
+     width:10%;
+}
+
+.logo-text{
+  font-size: 1.5em;
+}
+
+.menubar{
+  width: 55%;
+  margin-left: 11.5em;
+}
+
+.list{
+  margin-left: 80%;
+  display: flex;
+}
+
+.li-items{
+  color:black;
+  font-size:1.1em;
+  padding-left: 8%;
+  padding-top: 10%;
+  transition: 0.4s;
+  font-family: 'Rubik Marker Hatch', cursive;
+}
+
+.li-items a:hover{
+  color:black;
+}
+
+.cart{
+  padding-right: 2em;
+  position : relative;
+}
+
+.cart .number-of-items{
+  display:flex;
+  cursor:pointer;
+  justify-content:center;
+  align-items:center;
+  color:white;
+  position:absolute;
+  left:18px;
+  top:-7px;
+  background:grey;
+  height: 20px;
+  width:20px;
+  border-radius: 7px;
+}
+.number-of-items .noi{
+  font-size :0.7em;
+}
+
+.fa-shopping-cart{
+  font-size:1.5em;
+  cursor:pointer;
+}
+
+.burger{
+  height: 28px;
+  width: 32px;
+  display:none;
+}
+
+.layer1,.layer2,.layer3{
+  background-color: black;
+  height:4px;
+  margin-top: 4px;
+  width:100%;
+  border-radius:10px;
+}
+
+.sec1{
+  background:url("https://i.ibb.co/Dzq61yr/bg.png") center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:calc(100vh - 6vh);
+  width:100%;
+}
+
+.btn1{
+    padding:20% 20%;
+}
